@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#headcont {
+  background-color: rgba(255, 0, 0, 0.644);
+}
+#head1 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+#head2 {
+  font-size: 25px;
+  color: black;
+}
+#mainbg {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: row;
+  text-align: center;
+  height: 88.4vh;
+  background-size: cover;
+  padding-bottom: 25px;
+}
+#mainbg input {
+  width: 500px;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 50px;
+  border: 1px solid;
+}
+
+#mainbg input:focus {
+  outline: none;
+}
+#mainbg label {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px 0px;
+}
+#mainbg select {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  padding: 10px 5px;
+  border-radius: 50px;
+}
+#mainbg select:focus {
+  outline: none;
+}
+#mic-btn {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  transition: all 2s linear;
+}
+#mic-btn:hover {
+  animation-name: colch;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes colch {
+  0% {
+    border-color: green;
+    color: green;
+  }
+  20% {
+    border-color: turquoise;
+    color: turquoise;
+  }
+  40% {
+    border-color: yellow;
+    color: yellow;
+  }
+  60% {
+    border-color: skyblue;
+    color: skyblue;
+  }
+  80% {
+    border-color: teal;
+    color: teal;
+  }
+  100% {
+    border-color: coral;
+    color: coral;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1199px) {
+  #mainbg {
+    background-image: url("IMAGES/mobgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #mainbg input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,115 @@
+#foot {
+  background-color: white;
+}
+
+#f1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+#f1 p {
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+#f1 a {
+  text-decoration: none;
+  font-weight: 300;
+  color: grey;
+  font-size: 15px;
+  line-height: 28px;
+}
+#f1 a:hover {
+  color: #dba239;
+}
+#f2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+#f2 p {
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+#f2 a {
+  text-decoration: none;
+  font-weight: 300;
+  color: grey;
+  font-size: 15px;
+  line-height: 28px;
+}
+#f2 a:hover {
+  color: #dba239;
+}
+#f3 {
+  font-family: "Poppins", sans-serif;
+}
+#f3 p {
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+#f3 a {
+  text-decoration: none;
+  font-weight: 300;
+  color: grey;
+  font-size: 15px;
+  line-height: 28px;
+}
+#f3 a:hover {
+  color: #dba239;
+}
+#f4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+#f4 p {
+  font-weight: 500;
+  color: black;
+  font-size: 17px;
+}
+#f4 input {
+  width: 250px;
+  border-bottom: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: black;
+  border-style: solid;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px 0;
+}
+#f4 input:focus {
+  outline: none;
+}
+#f4 a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  border-style: solid;
+  padding: 5px 15px;
+  border-width: 1px;
+  border-color: black;
+}
+#f4 a:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+#footdown {
+  background-color: black;
+}
+#f5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 200;
+}
+
+@media (min-width: 580px) and (max-width: 800px) {
+  #f4 input {
+    width: 175px;
+  }
+}
